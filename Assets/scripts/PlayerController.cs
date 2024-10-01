@@ -206,7 +206,7 @@ public class PlayerController : MonoBehaviour
                 }
                 for (int i = 0; i < Weapons.Length; i++)
                 {
-                    si.Ammo[i] = Weapons[i].Ammo;
+                    si.Ammo[i] = Weapons[i].Ammo + Weapons[i].Clip;
                 }
 
                 string dataToWrite = JsonUtility.ToJson(si);
