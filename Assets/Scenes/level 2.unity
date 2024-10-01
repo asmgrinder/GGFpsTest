@@ -3516,7 +3516,7 @@ GameObject:
   - component: {fileID: 2033977882}
   m_Layer: 0
   m_Name: acid
-  m_TagString: Untagged
+  m_TagString: acid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
